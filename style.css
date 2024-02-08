@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-  *,
-   :root{
+  *, :root{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +14,7 @@
   } 
 
 body {
-  background-color: #0c3cac;
+  background-color: #0F172A;
 
   }
 
@@ -62,7 +61,7 @@ body {
 }
 .quiz-item h3:before {
   counter-increment: quiz-item;
-  content:counter(quiz-item);
+  content:counter( quiz-item);
   background-color: #475569;
 
   width: 28;
@@ -74,6 +73,9 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+
+  gap: 10px
+  
   
 }
 
@@ -97,7 +99,7 @@ body {
 
  }
  
-input {
+.input {
  all:unset;
  border: 1px solid #94a3b8;
  width: 16px;
