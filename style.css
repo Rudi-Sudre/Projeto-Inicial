@@ -40,7 +40,7 @@ body {
   counter-reset: quiz-item;
 
 }
-.quiz-item {
+quiz-item {
   margin-top: 24px;
   border: 1px solid #475569;
   border-radius: 6px;
@@ -48,7 +48,7 @@ body {
   overflow: hidden;
 
   }
-.quiz-item h3 {
+quiz-item h3 {
   padding: 16px 20px;
   color: #e2e8f0;
 
@@ -59,7 +59,7 @@ body {
   background-color: #1e293b;
 
 }
-.quiz-item h3:before {
+quiz-item h3:before {
   counter-increment: quiz-item;
   content:counter( quiz-item);
   background-color: #475569;
@@ -79,14 +79,14 @@ body {
   
 }
 
-.quiz-item dl {
+quiz-item dl {
   padding: 20px 24px;
 
   display: grid;
   gap: 8px;
 
 }
-.quiz-item dl dt {
+quiz-item dl dt {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -99,7 +99,7 @@ body {
 
  }
  
-.input {
+input {
  all:unset;
  border: 1px solid #94a3b8;
  width: 16px;
@@ -111,11 +111,11 @@ body {
  justify-content: center;
  flex-shrink: 0;
  }
-.input:checked {
+input:checked {
   border: 1px solid #35e66a;
   }
 
-.input:checked:before {
+input:checked:before {
   content:"";
   width: 10px;
   height: 10px;
