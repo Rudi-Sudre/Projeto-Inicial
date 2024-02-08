@@ -98,8 +98,10 @@ body {
 input {
  all:unset;
  border: 1px solid #94a3b8;
+ 
  width: 16px;
  height: 16px;
+ 
  border-radius: 50%;
  
  display: flex;
@@ -117,7 +119,7 @@ input:checked:before {
   height: 10px;
 
   background-color: #A3E635;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 #acertos {
