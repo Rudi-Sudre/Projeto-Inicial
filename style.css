@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -64,8 +64,8 @@ body {
   content:counter( quiz-item);
   background-color: #475569;
 
-  width: 28;
-  height: 32;
+  width: 28px;
+  height: 32px;
   font-size: 12px;
   border-radius: 50%;
   
@@ -73,9 +73,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-
-  gap: 10px
-  
   
 }
 
@@ -99,7 +96,7 @@ body {
 
  }
  
-.input {
+input {
  all:unset;
  border: 1px solid #94a3b8;
  width: 16px;
@@ -111,18 +108,17 @@ body {
  justify-content: center;
  flex-shrink: 0;
  }
-.input:checked {
+input:checked {
   border: 1px solid #35e66a;
   }
 
-.input:checked:before {
+input:checked:before {
   content:"";
   width: 10px;
   height: 10px;
 
   background-color: #A3E635;
-  border-radius: 
-  40%;
+  border-radius: 40%;
 }
 
 #acertos {
