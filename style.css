@@ -99,7 +99,7 @@ body {
 
  }
  
-input {
+.input {
  all:unset;
  border: 1px solid #94a3b8;
  width: 16px;
@@ -111,11 +111,11 @@ input {
  justify-content: center;
  flex-shrink: 0;
  }
-input:checked {
+.input:checked {
   border: 1px solid #35e66a;
   }
 
-input:checked:before {
+.input:checked:before {
   content:"";
   width: 10px;
   height: 10px;
@@ -135,4 +135,4 @@ input:checked:before {
     left: 0;
     width: 100%;
     padding: 12px;
-} 
+}
