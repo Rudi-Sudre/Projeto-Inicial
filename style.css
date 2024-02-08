@@ -86,7 +86,7 @@ body {
   gap: 8px;
 
 }
-.quiz-item dl dt {
+.quiz-item dt {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
