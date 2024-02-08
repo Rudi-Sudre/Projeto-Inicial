@@ -65,7 +65,7 @@ body {
   background-color: #475569;
 
   width: 28px;
-  height: 32px;
+  height: 28px;
   font-size: 12px;
   border-radius: 50%;
   
@@ -73,8 +73,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  
-}
+  }
 
 .quiz-item dl {
   padding: 20px 24px;
